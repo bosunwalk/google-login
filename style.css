@@ -140,20 +140,14 @@ footer {
     bottom: 0;
     width: 100%;
     height: 36px;
+    margin-top: 45px;
     box-sizing: border-box;
-    border-top: 1px solid #e5e5e5;
+
     color: #737373;
+    z-index: 1;
 }
 
 
-footer {
-    font-size: .85em;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 36px;
-    color: #ffffff;
-}
 
 footer a {
     color: #737373;
@@ -161,10 +155,11 @@ footer a {
 
 footer .links {
     float: right;
+    margin-right: 492px;
 }
 
 footer .links li {
-    margin-right: 90px;
+    margin-right: 20px;
     display: inline;
     padding-right: 1.5em;
 }
@@ -175,6 +170,8 @@ footer ul {
 
 footer .select-language {
     float: left;
+    margin-left: 532px;
+
 }
 
 .select-language select {
@@ -184,6 +181,3 @@ footer .select-language {
     margin: 0 2px;
 }
 
-.select-language img {
-    vertical-align: top;
-}
